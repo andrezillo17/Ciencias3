@@ -11,9 +11,9 @@ import(
 	conv "strconv"
 )
 
-//::::::::::::::::::: Nuevos Tipos de Datos ::::::::::::::
 
-type Nodo struct{
+
+type Nodo struct{//Se crean los nuevos tipo de datos propios del programa
 	Valor int
 	Nombre string
 }
@@ -23,9 +23,6 @@ type Stack struct{
 	contador int
 }
 
-//::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-//:::::::::::::::::::::: Fuciones ::::::::::::::::::::::::
 
 //-----------------Información del Nodo------------------
 func (nodo *Nodo) String() string{
